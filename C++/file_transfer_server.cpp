@@ -214,7 +214,7 @@ int gui(string filepath)
 
 int main()
 {
-    string filepath = "/home/vaibhav/Videos/Snowden (2016) [1080p] [YTS.AG]/Snowden.2016.1080p.BluRay.x264-[YTS.AG].mp4";
+    string filepath = "/home/user/photo.jpg";
     thread t1(gui, filepath);
     thread t2(server, filepath);
     t1.join();
